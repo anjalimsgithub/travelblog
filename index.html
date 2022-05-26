@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel blog</title>
+    <script src="https://kit.fontawesome.com/86dd797f35.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Macondo&family=Odibee+Sans&family=Raleway:ital,wght@1,300&family=Smooch&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid">
+            <img src="./images/travel.jpg" style="height:60px; width: 150px;" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-3">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TRAVEL</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            PLACES
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li>
+                        <div class="input-group mt-3">
+                            <div class="form-outline ">
+                                <input type="search" id="form1" class="form-control" placeholder="search" />
+                                <label class="form-label" for="form1"></label>
+                            </div>
+                            <button type="button" class="btn btn-info" style="height:38px ;">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- caurosel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/travel1.jpg" class="d-block w-100" style="height:400px ;" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <div style="font-family: 'Macondo', cursive;">
+                        <h1>Andaman & Nicobar Island</h1>
+                    </div>
+                    <p>Comprises 572 islands that lie at the juncture of the Bay of Bengal and the Andaman Sea.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/travel2.jpg" class="d-block w-100" alt="..." style="height:400px ;">
+                <div class="carousel-caption d-none d-md-block">
+                    <div style="font-family: 'Macondo', cursive;">
+                        <h1>Andaman & Nicobar Island</h1>
+                    </div>
+                    <p>The Andaman group has 325 islands while the Nicobar group has only 24 islands. North, middle and
+                        South Andaman are collectively known as the Great Andaman.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/travel3.jpg" class="d-block w-100" alt="..." style="height:400px ;">
+                <div class="carousel-caption d-none d-md-block">
+                    <div style="font-family: 'Macondo', cursive;">
+                        <h1>Andaman & Nicobar Island</h1>
+                    </div>
+                    <p> The Andaman group is separated from the Nicobar group by a 150 km wide channel known as the Ten
+                        Degree Channel.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- introduction -->
+    <div class="introduction text-center p-3 bg-info " style="font-family: 'Odibee Sans', cursive;">
+        <h1>Top Places to visit in Andaman Trip</h1>
+    </div>
+    <!-- grid section -->
+    <div class="row">
+        <div class="col-4">
+            <img src="./images/travel4.jpg" class="w-100" alt="">
+        </div>
+        <div class="col-8 border-bottom">
+            <h5 class="text-center p-4 pb-3"><kbd>ROSS ISLAND</kbd> </h5>
+            <p class="text-center p-2">Ross Island is another place that will leave you spellbound. This island was the
+                erstwhile capital of
+                Andaman until 1941 when an earthquake destroyed the island. Ross Island was the headquarters of the
+                Indian Penal Settlement for nearly 80 years.The island had markets, bakery, stores, workshop, water
+                distillation plant, church, tennis court,
+                printing press, secretariat, hospital, cemetery, open air theatre and others. Today, everything has
+                disappeared except some old dilapidated buildings, which housed some of these landmarks.</p>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8 border-bottom">
+            <h5 class="text-center p-4 pb-3"><kbd>PORT BLAIR</kbd> </h5>
+            <p class="text-center">Port Blair is the capital of Andaman and Nicobar Islands. Also the largest town, it
+                is also the entry point for all the other islands. So in all probability your trip will start from here.
+                There are a few places of interest in the town like the Cellular Jail, Samudrika Marine Museum, and
+                water sports complex among others. And if you want to visit a beach, you can head towards the Corbyn’s
+                Cove Beach. You can also enjoy water sports here.
+            </p>
+        </div>
+        <div class="col-4">
+            <img src="./images/travel6.jpg" class="w-100" alt="">
+        </div>
+    </div>
+    <div class="row bg-info ">
+        <div class="col-4 pt-2 ">
+            <img src="./images/kid.jpeg" alt="" class="rounded-circle">
+            <div class="ps-5 pt-3"><mark>Peter Parker</mark></div>
+        </div>
+        <div class="col-4 text-center pt-5 ">
+            <div class="contact">
+                <a style="text-decoration:none ;" href=""><i class="fa fa-envelope text-black"></i>&nbsp;&nbsp;<p class="text-black"style="display:inline;">mygmailid@gmail.com</p></a>
+                <br><br>
+                <a  style="text-decoration:none "href="#"><i class="fa fa-instagram text-black"></i>&nbsp;&nbsp;<p class="text-black"style="display:inline ;">myinstagramid</p></a>
+            </div>
+        </div>
+        <div class="col-4">
+            <iframe class="w-100 p-5 pt-5"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4020905.2920951354!2d91.00582723125012!3d10.207809888117476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3064a00f2b650ff3%3A0xce80055648fccb2c!2sAndaman%20and%20Nicobar%20Islands!5e0!3m2!1sen!2sin!4v1653299190864!5m2!1sen!2sin"
+                height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</body>
+
+</html>
